@@ -4,7 +4,9 @@ find the problem from https://www.acmicpc.net/
 
 Below are the techniques I used
 
+[https://github.com/ggstargame45/cpp_-algo_solve/blob/main/baek12865.cpp](back)
 ## 1. Dynamic programming
+
 ## 2. Greedy algorithm
 ## 3. DFS
 ## 4. BFS
