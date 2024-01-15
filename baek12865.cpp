@@ -1,7 +1,7 @@
 #include <iostream>
 
 /**
- * 백준 12865 noraml backpack 
+ * 백준 12865 noraml backpack https://www.acmicpc.net/problem/12865
  * n stuffs, each has weight w and value v
  * backpack has weight limit k
  * find the maximum value of stuffs in backpack
@@ -31,6 +31,36 @@
  * 
  * time complexity : O(nk)
  * space complexity : O(nk)
+ * 
+ * 3. dynamic programming with 1d array
+ * 1) make 1d array dp[k+1]
+ * 2) dp[j] = maximum value of stuffs in backpack with weight j
+ * 3) dp[j] = max(dp[j], dp[j-w[i]] + v[i])
+ * 
+ * time complexity : O(nk)
+ * space complexity : O(k)
+ * 
+ * is there any other way?
+ *  - greedy algorithm
+ * - branch and bound
+ * - backtracking
+ * 
+ * greedy algorithm
+ * - sort by value/weight
+ * - put stuffs in backpack until it is full
+ * 
+ * branch and bound
+ * - sort by value/weight
+ * - put stuffs in backpack until it is full
+ * - if it is not full, put stuffs partially
+ * 
+ * backtracking
+ * - sort by value/weight
+ * - put stuffs in backpack until it is full
+ * - if it is not full, put stuffs partially
+ * - if it is full, check the maximum value
+ * - if it is not maximum, remove stuffs and put other stuffs
+ * 
 */
 
 using namespace std;
