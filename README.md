@@ -4,9 +4,10 @@ find the problem from https://www.acmicpc.net/
 
 Below are the techniques I used
 
-[back](/baek12865.cpp)
-## 1. Dynamic programming
 
+## 1. Dynamic programming
+"Knapsack Problem"
+[backpack problem](/baek12865.cpp)
 ## 2. Greedy algorithm
 ## 3. DFS
 ## 4. BFS
