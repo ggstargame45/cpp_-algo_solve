@@ -2,6 +2,9 @@
 baek = 백준 
 find the problem from https://www.acmicpc.net/
 
+going through <br>
+[https://www.acmicpc.net/workbook/view/4349](https://www.acmicpc.net/workbook/view/4349)
+
 Below are the techniques I used
 
 
