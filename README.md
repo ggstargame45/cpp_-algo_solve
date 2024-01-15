@@ -6,8 +6,8 @@ Below are the techniques I used
 
 
 ## 1. Dynamic programming
-"Knapsack Problem"
-[backpack problem : "https://www.acmicpc.net/problem/12865"](/baek12865.cpp)
+"Knapsack Problem" 
+- [backpack problem : https://www.acmicpc.net/problem/12865](/baek12865.cpp)
 ## 2. Greedy algorithm
 ## 3. DFS
 ## 4. BFS
