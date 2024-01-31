@@ -1,7 +1,5 @@
-#include <iostream>
-
 /**
- * 백준 12865 noraml backpack https://www.acmicpc.net/problem/12865
+ * 백준 12865 normal backpack https://www.acmicpc.net/problem/12865
  * n stuffs, each has weight w and value v
  * backpack has weight limit k
  * find the maximum value of stuffs in backpack
@@ -13,6 +11,17 @@
  * 
  * output
  * maximum value of stuffs in backpack
+ * 
+ * test case : 
+ * input
+ * 4 7
+ * 6 13
+ * 4 8
+ * 3 6
+ * 5 12
+ * output
+ * 14
+ * 
 */
 
 /**
@@ -62,6 +71,7 @@
  * - if it is not maximum, remove stuffs and put other stuffs
  * 
 */
+#include <iostream>
 
 using namespace std;
 
